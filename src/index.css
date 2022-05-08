@@ -11,3 +11,255 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Title{
+  display:flex;
+  margin-left: 650px;
+}
+.sub-title1{
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align:left;
+  font-size: 25px;
+  transition:all;
+}
+.sub-title1{
+  transform: rotate(270deg);
+}
+.sub-title2{
+  font-size: 50px;
+  font-weight: 900px;
+  margin-right: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.red{
+  width: 100px ;
+  height: 100px;
+  border: 3px solid green;
+}
+.header{
+  width: 90%;
+  height: 70px;
+  margin-left: 80px;
+  text-align: center;
+ 
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.Home-css{
+  text-decoration: none;
+  font-size: 30px;
+}
+li{
+  margin-top: 20px;
+  font-size: 25px;
+  color: darkslategrey;
+
+}
+
+.design{
+  width: 700px;
+  height: 220px;
+  margin:30px;
+  display:flex;
+  border-bottom: 1px solid grey;
+}
+.images{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+.images1{
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+}
+.content-data{
+  width: 350px;
+  height: 200px;
+  margin-left: 50px;
+}
+.main-cont{
+  margin-left: 80px;
+}
+.main-cont1{
+  margin-left: 100px;
+  width: 200px;
+}
+.design1{
+  width: 400px;
+  height: 150px;
+  border-bottom: 1px solid grey;
+  margin:30px;
+  display:flex;
+}
+.category-cont{
+  display: flex;
+}
+.Horizontalline{
+  width: 700px;
+  height: 1px;
+  border: 1px solid grey;
+}
+
+/* Home-design:-css */
+
+.atricle-components {
+  display: flex;
+  justify-content: space-evenly;
+}
+.back-image{
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  line-height: 10px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+.back-image2{
+  margin: 20px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.back-image3{
+  border-radius: 10px;
+  color:rgb(241, 193, 102);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.latest-fitness{
+  width: 300px;
+  height: 430px;
+  border: 1px solid rgba(128, 128, 128, 0.681);
+  border-radius: 5px;
+  justify-content: space-evenly;
+  margin: 35px;
+  text-align: center;
+  
+  
+}
+.latest-cont{
+  display: flex;
+  justify-content: center;
+  
+}
+.tourimage{
+  width: 100px;
+  height: 100px;
+}
+.LatestArticles1{
+  display:flex;
+  justify-content:center;
+  margin-right: 160px;
+}
+.lastest-articles-right{
+  margin-left:150px;
+}
+.storyhead{
+  margin-left: 200px;
+}
+.data-image{
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px grey;
+}
+.Dynamic-component{
+  width: 500px;
+  height: 600px;
+  margin-left: 500px;
+  border: 1px solid grey;
+  text-align: center;
+}
+.TryThiscomponent{
+  width: 1100px;
+  height:auto;
+  margin-left: 200px;
+}
+.try-image{
+  width: 320px;
+  height: 200px;
+}
+.latest-related{
+  width: 350px;
+  height: 580px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  margin: 25px;
+  text-align: center;
+  box-shadow: 4px 4px 6px grey;
+  
+}
+.Latest-related1{
+  display: flex;
+}
+.loading-buttons{
+  width: 150px;
+  height: 40px;
+  background-color:rgb(12, 129, 90);
+  font-size: 20px;
+  text-align: center;
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 10px;
+}
+.text-color{
+  color:darkgreen
+}
+.borders{
+  border-bottom: 3px solid crimson;
+  width: 300px;
+  line-height: 10px;
+  margin-left: 170px;
+}
+.border-bottoms{
+  width: 180px;
+  height: 3px;
+  background-color: brown;
+line-height: 3px;
+}
+
+.latestheading{
+  margin-left: 100px;
+  line-height: 5px;
+}
+.toppost-border{
+  width: 100px;
+  height: 3px;
+  background-color: brown;
+}
+.top-heading{
+  line-height: 5px;
+}
+.advertisement{
+  width: 200px ;
+  height: 200px;
+  /* border: 1px solid red; */
+  background-repeat: no-repeat;
+}
+.Ads-flex{
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.page-error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
